@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    height: 100vh;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+        
+}
+
+.page > *,.head > * {
+    /* border: 2px solid black; */
+    display: flex;
+    
+}
+.head {
+    margin-top: 1%;
+    margin-inline: 5%;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.logo__img {
+    font-size: 24px;
+    font-weight: bolder;
+    
+}
+.head__link,.head__input {
+    width: 300px;  
+   justify-content: space-between;
+}  
+.head__link > *, .head__input > *{
+    color: black;    
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.input__img--search2 {
+    position: relative;
+}
+.img--count {
+    padding: 2px 6px;
+    background-color: red;
+    border-radius:  20px;
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+
+}       
+.title {
+    margin-top: 3%;
+    margin-inline: 5%;
+}
+.maincontent{
+    width: auto;
+    margin-top: 5%;
+    margin-inline: 5%;
+    justify-content: space-between;          
+    align-items: top;
+    /* border: 2px solid black; */
+}    
+.info {
+    width: 48%;
+}
+
+.info > * {
+    display: flex;
+    /* border: 2px solid black; */
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: rgb(240, 238, 238);
+}
+.gdocs > *,.gslides > * {    
+    /* border: 2px solid black; */
+    margin-block: 20px;
+    margin-inline: 12px;
+    align-self: center;
+}
+.gdocs__delete,.gslides__delete{
+    padding: 8px;
+    border: 2px solid rgb(36, 209, 36);    
+    border-radius:  40px;   
+}
+.gdocs__info > *, .gslides__info > *{
+    margin-bottom: 8px;
+}
+.gdocs__info{
+    height: 135px;
+    background: linear-gradient(to right, rgb(83, 178, 236), rgb(161, 213, 245));
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+ .gslides__info{
+    height: 135px;
+    background: linear-gradient(to right, orange, rgb(247, 208, 138));  
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+.gdocs__info .info__icon, .gslides__info .info__icon{
+    height: 32px;
+    width: 32px;    
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gdocs__contant, .gslides__contant{
+    height: 135px;
+    width: 300px;    
+    border-radius: 10px;   
+ 
+    
+}
+.gdocs__contant > *, .gslides__contant > *{
+    padding-block: 10px;
+}
+.gdocs__contant .contant__input, .gslides__contant .contant__input{
+    display: flex;        
+    align-items: center;    
+}
+.gdocs__contant .contant__input--sec, .gslides__contant .contant__input--sec{
+    margin-left: 5px;
+}
+.contant__input--checkbox{
+    display: flex;
+}
+
+.contant__input--checkbox > *{
+    background-color: gray;
+    height: 15px;
+    width: 15px;    
+    border-radius: 10px;
+    margin-left: 5px;
+}
+.r1,.r4{
+    background-color: rgb(36, 209, 36);;
+}
+.order{
+    margin-left: 20px;
+    width: 50%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: rgb(240, 238, 238);
+}
+
+.order > *{
+margin-top: 25px;
+padding-inline: 15px ;
+/* border: 2px solid black; */
+font-size: 20px;
+
+}
+.order__subtoal,.order__total,.order__promotion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.code,.promotions--apply{
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+}   
+.code{ 
+    width: 80%;
+    padding-left: 5px;
+  
+}
+.promotions--apply{
+    width: 15%;   
+    font-weight: bold;
+    color: rgb(36, 209, 36);
+    border: 1px solid rgb(36, 209, 36);
+
+}
+.promotions--apply:hover{
+    background-color: rgb(142, 240, 142) ;
+    border: 2px solid rgb(142, 240, 142) ;
+}
+.hr2 {
+
+    margin-inline: 20px ;
+    background-color: rgba(243, 240, 240, 0.836);
+}
+.log{
+    height: 40px;
+    width: 80%;
+    margin-bottom: 10px;
+    margin-inline: 10%;
+    border-radius: 10px;
+    background-color: rgb(59, 227, 82);
+    
+}
+.log:hover{
+    border: 2px solid black ;
+}
